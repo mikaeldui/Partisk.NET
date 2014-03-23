@@ -27,5 +27,6 @@ namespace Partisk.API
         public string Description;
         [JsonProperty("source")]
         public string Source;
+		
     }
 }
