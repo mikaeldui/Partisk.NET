@@ -7,12 +7,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Partisk.API")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A .NET library for Partisk.nu.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Partisk.API")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("Partisk.nu")]
+[assembly: AssemblyProduct("Partisk for C-sharp")]
+[assembly: AssemblyCopyright("Copyright © Partisk.nu 2014")]
+[assembly: AssemblyTrademark("Partisk.nu")]
 [assembly: AssemblyCulture("")]
 [assembly: NeutralResourcesLanguage("en")]
 
