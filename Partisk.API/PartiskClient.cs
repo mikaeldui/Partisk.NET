@@ -15,6 +15,15 @@ namespace Partisk.API
         {
             BaseAddress = new Uri("https://www.partisk.nu/api/", UriKind.Absolute)
         };
+        
+        private static PartiskClient _service;
+        public static PartiskClient GetClient()
+        {
+            if(_service == null)
+                _service = new PartiskClient();
+                
+            return _service;
+        }
 
         public async Task<PartiskQuestion[]> GetQuestionsAsync()
         {
